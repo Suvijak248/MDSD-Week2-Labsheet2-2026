@@ -460,11 +460,11 @@ flutter run
 **✏️ ทดลองแก้ไข C:** เปลี่ยน `MainAxisAlignment.center` ของ Column เป็น `.start`, `.end`, `.spaceBetween`, `.spaceEvenly` ทีละอัน สังเกตการเปลี่ยนแปลง
 
 **บันทึกรูปผลการทดลอง**
-```
 <img width="1299" height="763" alt="4" src="https://github.com/user-attachments/assets/21fed569-a336-47d3-87bf-94fa673f3325" />
-<img width="1302" height="768" alt="3" src="https://github.com/user-attachments/assets/56397f23-c6fc-4119-b5de-7a70c586fb40" />
-<img width="1299" height="767" alt="2" src="https://github.com/user-attachments/assets/4b4a7b7f-6c3d-47e3-9f29-50f8b4d72216" />
-<img width="1299" height="765" alt="1" src="https://github.com/user-attachments/assets/0ff9fd40-a70b-450f-bd8b-40b598c05f02" />
+<img width="1299" height="763" alt="4" src="https://github.com/user-attachments/assets/bb5d1311-440c-4722-9c3e-0e326ca5282e" />
+<img width="1302" height="768" alt="3" src="https://github.com/user-attachments/assets/8511c38f-f070-40db-83b7-5ad990a9a44e" />
+<img width="1299" height="767" alt="2" src="https://github.com/user-attachments/assets/b8236cbd-2dab-4f08-a07f-b6ce42842128" />
+
 
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
