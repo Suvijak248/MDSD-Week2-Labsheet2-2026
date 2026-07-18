@@ -460,17 +460,18 @@ flutter run
 **✏️ ทดลองแก้ไข C:** เปลี่ยน `MainAxisAlignment.center` ของ Column เป็น `.start`, `.end`, `.spaceBetween`, `.spaceEvenly` ทีละอัน สังเกตการเปลี่ยนแปลง
 
 **บันทึกรูปผลการทดลอง**
-<img width="1299" height="763" alt="4" src="https://github.com/user-attachments/assets/21fed569-a336-47d3-87bf-94fa673f3325" />
-<img width="1299" height="763" alt="4" src="https://github.com/user-attachments/assets/bb5d1311-440c-4722-9c3e-0e326ca5282e" />
-<img width="1302" height="768" alt="3" src="https://github.com/user-attachments/assets/8511c38f-f070-40db-83b7-5ad990a9a44e" />
-<img width="1299" height="767" alt="2" src="https://github.com/user-attachments/assets/b8236cbd-2dab-4f08-a07f-b6ce42842128" />
+<img width="1299" height="765" alt="1" src="https://github.com/user-attachments/assets/779c7444-3974-485a-973e-54a7928f4b98" />
+<img width="1299" height="767" alt="2" src="https://github.com/user-attachments/assets/3c4aee16-3750-4455-b453-02d04b22c27f" />
+<img width="1302" height="768" alt="3" src="https://github.com/user-attachments/assets/aa240baa-005d-4b23-ba87-600ba9f680ff" />
+<img width="1299" height="763" alt="4" src="https://github.com/user-attachments/assets/7cd8ca4c-a53b-4fc2-92b8-8ddd826e4941" />
+
 
 
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1290" height="763" alt="5" src="https://github.com/user-attachments/assets/f80512ab-e4db-4ada-8459-63aa92acc5c9" />
+
+
 ---
 
 ### การทดลองที่ 3 — StatelessWidget แรก
@@ -583,16 +584,14 @@ class InfoCard extends StatelessWidget {
 
 **ขั้นตอนที่ 3** บันทึกและตรวจสอบผล — ควรเห็น Card 3 ใบเรียงกัน
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1269" height="749" alt="image" src="https://github.com/user-attachments/assets/cff9670f-2658-4a1b-b7fc-7f3e0dea167f" />
+
 
 **✏️ ทดลองแก้ไข E:** เพิ่ม `InfoCard` ที่ 4 แสดง "คณะ" ด้วยไอคอน `Icons.account_balance` สีแดง
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1301" height="765" alt="image" src="https://github.com/user-attachments/assets/821718c3-1180-4827-bc64-674d980cc8cc" />
+
 ---
 
 ### การทดลองที่ 4 — StatefulWidget: Counter
