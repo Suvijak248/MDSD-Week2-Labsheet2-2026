@@ -1417,9 +1417,11 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** ทดสอบทุก Tab และทุก Feature
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1306" height="768" alt="image" src="https://github.com/user-attachments/assets/3650f61e-6027-4440-8bca-871754e00ce2" />
+<img width="1308" height="766" alt="13" src="https://github.com/user-attachments/assets/9d6d4acf-7a28-4fda-96cb-3f06783336ed" />
+<img width="1302" height="765" alt="14" src="https://github.com/user-attachments/assets/262f4dbf-ff00-4d17-aba1-90c808ce2443" />
+
+
 ---
 
 ### การทดลองที่ 8 — Hot Reload vs Hot Restart
@@ -1443,20 +1445,20 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 | | หลัง Hot Reload |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | เปลี่ยนเป็นสี Teal |
+| ค่า Counter | ค่าเท่าเดิมไม่เปลี่ยนแปลง |
 
 **ขั้นตอนที่ 5** กด **Hot Restart** (พิมพ์ `R` ใน Terminal หรือกด 🔄)
 
 | | หลัง Hot Restart |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+| สี Theme | เปลี่ยนเป็นสี Teal |
+| ค่า Counter | กลับไปเริ่มต้นที่ 0 ใหม่ |
 
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
 
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
+> Hot Reload: สี _เปลี่ยนเป็นสี Teal_ Counter _มีค่าเท่าเดิมไม่เปลี่ยนแปลง_ เพราะ Hot Reload จะอัปเดตเฉพาะโค้ดของหน้าตา (UI) ที่เปลี่ยนไป แต่จะยังคงรักษาค่าของ State  เอาไว้เหมือนเดิมโดยไม่ต้องรันแอปใหม่
+> Hot Restart: สี _เปลี่ยนเป็นสี Teal_ Counter _รีเซ็ตกลับเป็น 0_ เพราะ Hot Restart จะทำลาย State และสถานะเก่าทั้งหมดทิ้ง แล้วเริ่มต้นรันแอปพลิเคชันใหม่ตั้งแต่ฟังก์ชัน main() ตัวแปรทุกอย่างจึงกลับไปเป็นค่าเริ่มต้น
 
 ---
 
